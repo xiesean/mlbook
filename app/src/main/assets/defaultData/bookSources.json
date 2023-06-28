@@ -1,0 +1,47 @@
+[
+  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "NOVEL",
+    "bookSourceName": "READ NOVEL FULL",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://readnovelfull.com",
+    "customOrder": -167,
+    "enabled": true,
+    "enabledCookieJar": false,
+    "enabledExplore": true,
+    "exploreUrl": "Hot Novel::/hot-novel?page={{page}}\nLatest Release::/latest-release-novel?page={{page}}\nNovel Completed::/completed-novel?page={{page}}\nRomance::/genre/romance?page={{page}}",
+    "lastUpdateTime": 1632992502814,
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": ".info-meta@li.1@a@text",
+      "coverUrl": ".book@img@src",
+      "init": "",
+      "intro": ".desc-text@html",
+      "kind": ".info-meta@li.2@a@text",
+      "name": "h3.0@text",
+      "tocUrl": ".nav-tabs@.active@href"
+    },
+    "ruleContent": {
+      "content": "#chr-content@p@html"
+    },
+    "ruleExplore": {
+      "bookList": ""
+    },
+    "ruleSearch": {
+      "author": ".author@text",
+      "bookList": ".col-xs-12@.row",
+      "bookUrl": "a.0@href",
+      "coverUrl": "img@src",
+      "intro": "",
+      "lastChapter": ".chr-text@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": ".list-chapter@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://readnovelfull.com/search?keyword={{key}}",
+    "weight": 0
+  }
+]
